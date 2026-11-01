@@ -19,5 +19,5 @@ features:
   - title: 图片独立归档
     details: 所有证物图片存放于 docs/public/images/，按「档案编号-序号」命名，Markdown 中以 /images/ 绝对路径引用。
   - title: 持续收录中
-    details: 新增神人请在 docs/archives/ 下建立编号 md，并同步登记到档案索引与侧边栏。
+    details: 新增神人请在 docs/archives/ 下建立编号 md，并同步登记到档案索引与侧边栏。当前馆内空空如也，等你来写第一篇。
 ---

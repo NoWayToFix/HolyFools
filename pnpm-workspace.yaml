@@ -1,3 +1,13 @@
+# pnpm 10.x 用 onlyBuiltDependencies 放行构建脚本（CI 的 pnpm 10.11 只认这个）；
+# pnpm 12 用 allowBuilds。两份都写，本地与 CI 行为一致。
+onlyBuiltDependencies:
+  - esbuild
+  - vue-demi
+
 allowBuilds:
   esbuild: true
   vue-demi: true
+
+peerDependencyRules:
+  ignoreMissing:
+    - '@algolia/client-search'
